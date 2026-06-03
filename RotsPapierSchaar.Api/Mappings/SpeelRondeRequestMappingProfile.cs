@@ -2,7 +2,7 @@ using Mapster;
 using RotsPapierSchaar.Application.Dtos;
 using RotsPapierSchaar.Contracts.Requests;
 
-namespace RotsPapierSchaar.Api.Mapping;
+namespace RotsPapierSchaar.Api.Mappings;
 
 public class SpeelRondeRequestMappingProfile : IRegister
 {
