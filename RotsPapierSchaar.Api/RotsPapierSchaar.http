@@ -1,0 +1,27 @@
+@RotsPapierSchaar_HostAddress = http://localhost:5188
+
+### Start een nieuw spel
+POST {{RotsPapierSchaar_HostAddress}}/api/v1/spel/start
+Content-Type: application/json
+
+{
+  "aantalRondes": 3
+}
+
+###
+
+### Speel een ronde
+POST {{RotsPapierSchaar_HostAddress}}/api/v1/spel/ronde
+Content-Type: application/json
+
+{
+  "spelerZet": "Rots"
+}
+
+###
+
+### Haal samenvatting op
+GET {{RotsPapierSchaar_HostAddress}}/api/v1/spel/samenvatting
+Accept: application/json
+
+###

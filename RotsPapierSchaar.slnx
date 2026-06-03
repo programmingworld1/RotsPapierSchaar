@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="RotsPapierSchaar.Application/RotsPapierSchaar.Application.csproj" />
+  <Project Path="RotsPapierSchaar.Contracts/RotsPapierSchaar.Contracts.csproj" />
+  <Project Path="RotsPapierSchaar.Domain/RotsPapierSchaar.Domain.csproj" />
+  <Project Path="RotsPapierSchaar.Infrastructure/RotsPapierSchaar.Infrastructure.csproj" />
+  <Project Path="RotsPapierSchaar.Api/RotsPapierSchaar.Api.csproj" />
+</Solution>
